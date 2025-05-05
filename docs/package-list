@@ -1,0 +1,4 @@
+com.kukri.moviecatalog.controller
+com.kukri.moviecatalog.model
+com.kukri.moviecatalog.repository
+com.kukri.moviecatalog.service

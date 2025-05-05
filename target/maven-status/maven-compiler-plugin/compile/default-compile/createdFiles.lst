@@ -1,0 +1,16 @@
+com/kukri/moviecatalog/model/RatingSummaryDTO.class
+com/kukri/moviecatalog/controller/DirectorController.class
+com/kukri/moviecatalog/MovieCatalogApplication.class
+com/kukri/moviecatalog/model/Movie.class
+com/kukri/moviecatalog/model/MovieDTO.class
+com/kukri/moviecatalog/controller/MovieController.class
+com/kukri/moviecatalog/repository/DirectorRepository.class
+com/kukri/moviecatalog/repository/RatingRepository.class
+com/kukri/moviecatalog/controller/RatingController.class
+com/kukri/moviecatalog/model/MovieMapper.class
+com/kukri/moviecatalog/model/Director.class
+com/kukri/moviecatalog/model/Rating.class
+com/kukri/moviecatalog/service/DirectorService.class
+com/kukri/moviecatalog/service/MovieService.class
+com/kukri/moviecatalog/repository/MovieRepository.class
+com/kukri/moviecatalog/service/RatingService.class

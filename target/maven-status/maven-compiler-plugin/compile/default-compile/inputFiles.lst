@@ -1,0 +1,16 @@
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/MovieCatalogApplication.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/controller/DirectorController.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/controller/MovieController.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/controller/RatingController.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/model/Director.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/model/Movie.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/model/MovieDTO.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/model/MovieMapper.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/model/Rating.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/model/RatingSummaryDTO.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/repository/DirectorRepository.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/repository/MovieRepository.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/repository/RatingRepository.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/service/DirectorService.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/service/MovieService.java
+/Users/akmalnazir/movie-catalog/src/main/java/com/kukri/moviecatalog/service/RatingService.java

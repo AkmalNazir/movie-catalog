@@ -1,0 +1,106 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.18/spring-boot-starter-web-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.18/spring-boot-starter-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.18/spring-boot-autoconfigure-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.18/spring-boot-starter-logging-2.7.18.jar:/Users/akmalnazir/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/Users/akmalnazir/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/Users/akmalnazir/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/Users/akmalnazir/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/akmalnazir/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/akmalnazir/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/akmalnazir/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.18/spring-boot-starter-json-2.7.18.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.18/spring-boot-starter-tomcat-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar:/Users/akmalnazir/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.83/tomcat-embed-el-9.0.83.jar:/Users/akmalnazir/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.83/tomcat-embed-websocket-9.0.83.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-webmvc/5.3.31/spring-webmvc-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-context/5.3.31/spring-context-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-expression/5.3.31/spring-expression-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.18/spring-boot-starter-data-jpa-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.18/spring-boot-starter-aop-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.18/spring-boot-starter-jdbc-2.7.18.jar:/Users/akmalnazir/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-jdbc/5.3.31/spring-jdbc-5.3.31.jar:/Users/akmalnazir/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/akmalnazir/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/Users/akmalnazir/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar:/Users/akmalnazir/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/Users/akmalnazir/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/Users/akmalnazir/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/akmalnazir/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/akmalnazir/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/Users/akmalnazir/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.9/jaxb-runtime-2.3.9.jar:/Users/akmalnazir/.m2/repository/org/glassfish/jaxb/txw2/2.3.9/txw2-2.3.9.jar:/Users/akmalnazir/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/Users/akmalnazir/.m2/repository/org/springframework/data/spring-data-jpa/2.7.18/spring-data-jpa-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/data/spring-data-commons/2.7.18/spring-data-commons-2.7.18.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-orm/5.3.31/spring-orm-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-aspects/5.3.31/spring-aspects-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/akmalnazir/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/akmalnazir/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-core/5.3.31/spring-core-5.3.31.jar:/Users/akmalnazir/.m2/repository/org/springframework/spring-jcl/5.3.31/spring-jcl-5.3.31.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/akmalnazir/movie-catalog/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/akmalnazir/movie-catalog/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Movie Catalog 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/akmalnazir/movie-catalog/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Movie Catalog 1.0.0 API'
+com.kukri.moviecatalog.repository
+com.kukri.moviecatalog
+com.kukri.moviecatalog.controller
+com.kukri.moviecatalog.model
+com.kukri.moviecatalog.service
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.18/spring-boot-starter-web-2.7.18.jar = 1700726735000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.18/spring-boot-starter-2.7.18.jar = 1700726728000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18.jar = 1700726727000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.18/spring-boot-autoconfigure-2.7.18.jar = 1700726722000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.18/spring-boot-starter-logging-2.7.18.jar = 1700726740000
+/Users/akmalnazir/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar = 1679606457000
+/Users/akmalnazir/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar = 1679606411000
+/Users/akmalnazir/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar = 1645648225000
+/Users/akmalnazir/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar = 1645648111000
+/Users/akmalnazir/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar = 1644327337000
+/Users/akmalnazir/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1564744165000
+/Users/akmalnazir/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar = 1639506857000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.18/spring-boot-starter-json-2.7.18.jar = 1700726724000
+/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar = 1674437214000
+/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar = 1674437209000
+/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar = 1674437205000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.18/spring-boot-starter-tomcat-2.7.18.jar = 1700726732000
+/Users/akmalnazir/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar = 1699566489000
+/Users/akmalnazir/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.83/tomcat-embed-el-9.0.83.jar = 1699566501000
+/Users/akmalnazir/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.83/tomcat-embed-websocket-9.0.83.jar = 1699566504000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar = 1700123921000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31.jar = 1700123909000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-webmvc/5.3.31/spring-webmvc-5.3.31.jar = 1700123920000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar = 1700123919000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-context/5.3.31/spring-context-5.3.31.jar = 1700123921000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-expression/5.3.31/spring-expression-5.3.31.jar = 1700123921000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.18/spring-boot-starter-data-jpa-2.7.18.jar = 1700726733000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.18/spring-boot-starter-aop-2.7.18.jar = 1700726724000
+/Users/akmalnazir/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar = 1624576656000
+/Users/akmalnazir/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.18/spring-boot-starter-jdbc-2.7.18.jar = 1700726734000
+/Users/akmalnazir/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar = 1614776862000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-jdbc/5.3.31/spring-jdbc-5.3.31.jar = 1700123920000
+/Users/akmalnazir/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar = 1564784203000
+/Users/akmalnazir/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar = 1564765318000
+/Users/akmalnazir/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar = 1675681045000
+/Users/akmalnazir/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar = 1641938053000
+/Users/akmalnazir/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar = 1675590907000
+/Users/akmalnazir/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar = 1168669719000
+/Users/akmalnazir/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar = 1641486713000
+/Users/akmalnazir/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar = 1571525227000
+/Users/akmalnazir/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar = 1604074374000
+/Users/akmalnazir/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.9/jaxb-runtime-2.3.9.jar = 1697203623000
+/Users/akmalnazir/.m2/repository/org/glassfish/jaxb/txw2/2.3.9/txw2-2.3.9.jar = 1697203625000
+/Users/akmalnazir/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar = 1616081201000
+/Users/akmalnazir/.m2/repository/org/springframework/data/spring-data-jpa/2.7.18/spring-data-jpa-2.7.18.jar = 1700213573000
+/Users/akmalnazir/.m2/repository/org/springframework/data/spring-data-commons/2.7.18/spring-data-commons-2.7.18.jar = 1700213512000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-orm/5.3.31/spring-orm-5.3.31.jar = 1700123919000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar = 1700123911000
+/Users/akmalnazir/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1644327230000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-aspects/5.3.31/spring-aspects-5.3.31.jar = 1700123910000
+/Users/akmalnazir/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar = 1650248709000
+/Users/akmalnazir/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar = 1580117728000
+/Users/akmalnazir/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar = 1582223866000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-core/5.3.31/spring-core-5.3.31.jar = 1700123920000
+/Users/akmalnazir/.m2/repository/org/springframework/spring-jcl/5.3.31/spring-jcl-5.3.31.jar = 1700123909000
+/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar = 1674434897000
+/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar = 1674432253000
+/Users/akmalnazir/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar = 1674433477000
+/Users/akmalnazir/movie-catalog/src/main/java/.DS_Store = 1746467458000
+/Users/akmalnazir/movie-catalog/src/main/java = 1746053399000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/constant-values.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/overview-tree.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/index.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/overview-frame.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/allclasses-noframe.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/index-all.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/deprecated-list.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/script.js = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/stylesheet.css = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/overview-summary.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/help-doc.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/allclasses-frame.html = 1746468012000
+/Users/akmalnazir/movie-catalog/target/reports/apidocs/package-list = 1746468012000
