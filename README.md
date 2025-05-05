@@ -18,25 +18,6 @@ The Movie Catalog API is a Spring Boot application that allows users to manage m
 - **MySQL**: Relational database to store movie, director, and rating data.
 - **Postman**: Used for API testing. A Postman collection is included for easy testing.
 
-## Project Structure
-
-movie-catalog/
-├── docs/
-│ └── postman-collection.json # Postman collection for testing the API
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── com/
-│ │ │ │ ├── kukri/
-│ │ │ │ │ ├── moviecatalog/
-│ │ │ │ │ │ ├── controller/ # API endpoints
-│ │ │ │ │ │ ├── model/ # Movie, Director, Rating models
-│ │ │ │ │ │ ├── repository/ # Database interactions
-│ │ │ │ │ │ └── service/ # Business logic
-│ └── resources/
-│ └── application.properties # Database configurations and application properties
-└── README.md # This file
-
 
 ## Setup & Installation
 
